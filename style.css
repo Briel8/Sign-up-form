@@ -1,0 +1,57 @@
+html {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    border: 0px solid orangered;
+    height: 100vh;
+    display: flex;
+}
+
+.side-bar {
+    height: 100vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
+
+.entry-division {
+    height: 100vh;
+    width: 60vw;
+}
+
+.background-image {
+    height: 100vh;
+    width: 40vw;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    position: absolute;
+    top: 185px;
+    background-color: black;
+    opacity: 50%;
+    height: 150px;
+}
+
+.logo-name {
+    color: gray;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.credit {
+    font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 850px;
+    color: white;
+    font-size: 16px;
+}
