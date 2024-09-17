@@ -12,6 +12,34 @@ body {
     display: flex;
 }
 
+fieldset {
+    border: 0px solid gray;
+    height: 31vh;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    border: 1.5px solid blue;
+    box-shadow: 0px 2px 4px gray;
+}
+
+button {
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #2a522a;
+}
+
 .side-bar {
     height: 100vh;
     width: 40vw;
@@ -22,6 +50,27 @@ body {
 .entry-division {
     height: 100vh;
     width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph-container,
+.sign-up-in {
+    background-color: #f2f2f2;
+    height: 34vh;
+}
+
+
+.paragraph-container,
+fieldset,
+.sign-up-in {
+    margin: 0px;
+    padding: 10px 40px;
+}
+
+.sign-up-in {
+    padding: 40px;
+    box-shadow: 0px 5px 10px  gray inset;
 }
 
 .background-image {
@@ -40,8 +89,10 @@ body {
     height: 150px;
 }
 
+
+
 .logo-name {
-    color: gray;
+    color: white;
     font-size: 40px;
     display: flex;
     flex-direction: column;
@@ -54,4 +105,20 @@ body {
     top: 850px;
     color: white;
     font-size: 16px;
+}
+
+.name,
+.email-phone,
+.passwd-confirm {
+    display: flex;
+}
+
+.first-name,
+.lastname,
+.email,
+.phone,
+.password,
+.confirm {
+    display: flex;
+    flex-direction: column;
 }
