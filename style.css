@@ -1,3 +1,12 @@
+@font-face {
+    font-family: myFont;
+    src:url(Norse-Bold.otf)
+}
+
+.logo-container{
+    font-family: myFont;
+}
+
 html {
     padding: 0px;
     margin: 0px;
@@ -17,6 +26,7 @@ fieldset {
     height: 31vh;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 input {
@@ -38,6 +48,21 @@ button {
     border-radius: 10px;
     color: white;
     background-color: #2a522a;
+}
+
+.paragraph-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.bold { 
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.padding-bottom {
+    padding-bottom: 30px;
 }
 
 .side-bar {
@@ -111,6 +136,7 @@ fieldset,
 .email-phone,
 .passwd-confirm {
     display: flex;
+    gap: 40px;
 }
 
 .first-name,
